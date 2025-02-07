@@ -1,26 +1,20 @@
-# 内容：OpenAi Bard anthropic
+# 内容：打狗
 # 域名关键字匹配
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,Claude
+DOMAIN-KEYWORD,pump
 # 域名后缀匹配
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai.com
+DOMAIN-SUFFIX,gmgn.ai
+DOMAIN-SUFFIX,ln.exchange
+DOMAIN-SUFFIX,lnfi.network
+DOMAIN-SUFFIX,xxyy.io
+DOMAIN-SUFFIX,debot.ai
+DOMAIN-SUFFIX,pump.fun
+DOMAIN-SUFFIX,solscan.io
+DOMAIN-SUFFIX,ethereum.org
+DOMAIN-SUFFIX,bitboom.fun
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,magiceden.io
+DOMAIN-SUFFIX,chain.fm
+DOMAIN-SUFFIX,unisat.io
+DOMAIN-SUFFIX,ave.ai
+DOMAIN-SUFFIX,wizz.cash
