@@ -11,7 +11,6 @@ DOMAIN-SUFFIX,pump.fun
 DOMAIN-SUFFIX,solscan.io
 DOMAIN-SUFFIX,ethereum.org
 DOMAIN-SUFFIX,bitboom.fun
-DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,magiceden.io
 DOMAIN-SUFFIX,chain.fm
@@ -39,5 +38,12 @@ DOMAIN-SUFFIX,time.fun
 DOMAIN-SUFFIX,myonion.fun
 DOMAIN-SUFFIX,mintchip.fun
 DOMAIN-SUFFIX,hyperliquid.xyz
+# 7.11 更新 删除okx binance
+DOMAIN-SUFFIX,chaininsight.vip
+DOMAIN-SUFFIX,faster100x.com
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,frontrun.pro
+
+
 
 
