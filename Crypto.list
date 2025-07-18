@@ -30,7 +30,6 @@ DOMAIN-SUFFIX,axiom.trade
 # 7.10更新
 DOMAIN-SUFFIX,bitboom.fun
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,mempool.space
 DOMAIN-SUFFIX,smithery.ai
 DOMAIN-SUFFIX,believe.app
 DOMAIN-SUFFIX,msu.io
@@ -44,7 +43,18 @@ DOMAIN-SUFFIX,faster100x.com
 DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,frontrun.pro
 DOMAIN-SUFFIX,oyl.gg
-
+#bitcoin
+DOMAIN-SUFFIX,bitcoincore.org
+DOMAIN-SUFFIX,bitcoin.org
+DOMAIN-SUFFIX,seed.bitcoinstats.com
+DOMAIN-SUFFIX,mempool.space
+#工具
+DOMAIN-SUFFIX,ct.app
+DOMAIN-SUFFIX,mycointool.com
+DOMAIN-SUFFIX,mct.xyz
+DOMAIN-SUFFIX,mct.club
+DOMAIN-SUFFIX,geniidata.com
+DOMAIN-SUFFIX,walletconnect.org
 
 
 
