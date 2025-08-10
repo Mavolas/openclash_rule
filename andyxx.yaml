@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   SSRDOG:
-    url: "yoururl"
+    url: ""
     type: http
     interval: 86400
     health-check:
@@ -13,7 +13,7 @@ proxy-providers:
       interval: 300
     proxy: 🎯 全球直连
   一元机场:
-    url: "yoururl"
+    url: ""
     type: http
     interval: 86400
     health-check:
@@ -122,6 +122,7 @@ proxy-groups:
   - {name: 📲 Telegram, type: select, proxies: [🇭🇰 香港节点, 🎯 全球直连, 🌐 手动切换, 🚀 节点选择, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇬🇧 英国节点, 🇺🇳 其他国家, 📝 备用机场]}
   - {name: 🐦 国外推特, type: select, proxies: [🇭🇰 香港节点, 🎯 全球直连, 🌐 手动切换, 🚀 节点选择, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇬🇧 英国节点, 🇺🇳 其他国家, 📝 备用机场]}
   - {name: 👀 YouTube, type: select, proxies: [🇭🇰 香港节点, 🎯 全球直连, 🌐 手动切换, 🚀 节点选择, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇬🇧 英国节点, 🇺🇳 其他国家, 📝 备用机场]}
+  - {name: 🧩 Microsoft, type: select, proxies: [🇭🇰 香港节点, 🎯 全球直连, 🌐 手动切换, 🚀 节点选择, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇬🇧 英国节点, 🇺🇳 其他国家, 📝 备用机场]}
 
 
   - {name: 🛑 广告拦截, type: select, proxies: [🛑 拒绝访问, 🎯 全球直连]}
@@ -170,6 +171,7 @@ rules:
   - RULE-SET,apple_domain,🎯 全球直连
   - RULE-SET,epicgames,🚀 节点选择
   - RULE-SET,porn,🚀 节点选择
+  - RULE-SET,directlite,🎯 全球直连
   - RULE-SET,xunlei,🎯 全球直连
   - RULE-SET,baidu,🎯 全球直连
   - RULE-SET,aliyun,🎯 全球直连
@@ -177,10 +179,9 @@ rules:
   - RULE-SET,bytedance,🎯 全球直连
   - RULE-SET,tencent,🎯 全球直连
   - RULE-SET,bilibili,🎯 全球直连
-  - RULE-SET,directlite,🎯 全球直连
   - RULE-SET,paypal_domain,🚀 节点选择
   - RULE-SET,onedrive_domain,🎯 全球直连
-  - RULE-SET,microsoft_domain,🎯 全球直连
+  - RULE-SET,microsoft_domain,🧩 Microsoft
   - RULE-SET,speedtest_domain,🎯 全球直连
   - RULE-SET,china_domain,🎯 全球直连
   - RULE-SET,china_company_ip,🎯 全球直连
@@ -235,6 +236,9 @@ rule-providers:
 
   porn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/mindgeek-porn.mrs"}
 
+  #国内常用网站补足
+  directlite: { <<: *class, url: "https://raw.githubusercontent.com/Mavolas/openclash_rule/refs/heads/main/Direct.list"}
+
   xunlei: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xunlei.mrs"}
   baidu: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/baidu.mrs"}
   aliyun: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/aliyun.mrs"}
@@ -243,8 +247,6 @@ rule-providers:
   tencent: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent.mrs"}
   bilibili: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.mrs"}
 
-  #国内常用网站补足
-  directlite: { <<: *class, url: "https://raw.githubusercontent.com/Mavolas/openclash_rule/refs/heads/main/Direct.list"}
 
   paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
   onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
