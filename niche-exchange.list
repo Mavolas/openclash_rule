@@ -1,8 +1,8 @@
 # 域名后缀匹配
 
 # bybit 补充
-- DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybit-aws.com
 
 # pionex
-- DOMAIN-SUFFIX,pionex.com
-- DOMAIN-SUFFIX,pioneerex.org
+DOMAIN-SUFFIX,pionex.com
+DOMAIN-SUFFIX,pioneerex.org
