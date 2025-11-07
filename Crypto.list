@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,chain.fm
 DOMAIN-SUFFIX,unisat.io
 DOMAIN-SUFFIX,ave.ai
 DOMAIN-SUFFIX,wizz.cash
-DOMAIN-SUFFIX,debank.com
 DOMAIN-SUFFIX,dune.com
 DOMAIN-SUFFIX,defillama.com
 DOMAIN-SUFFIX,coingecko.com
@@ -56,6 +55,10 @@ DOMAIN-SUFFIX,mct.club
 DOMAIN-SUFFIX,geniidata.com
 DOMAIN-SUFFIX,walletconnect.org
 
-
+# 链上调查
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,misttrack.io
+DOMAIN-SUFFIX,arkm.com
+DOMAIN-SUFFIX,debank.com
 
 
