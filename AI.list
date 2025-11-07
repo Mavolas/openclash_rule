@@ -24,3 +24,7 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
+
+# Edge Copilot 相关域名 - 使用代理
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,chatgpt.microsoft.com
